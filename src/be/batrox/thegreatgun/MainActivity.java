@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import be.batrox.thegreatgun.game.PlayActivity;
+import be.batrox.thegreatgun.game.GameActivity;
 import be.batrox.thegreatgun.game.shop.ShopActivity;
 import be.batrox.thegreatgun.tutorial.TutorialActivity;
 import be.batrox.thegreatgun.options.OptionsActivity;
@@ -22,7 +23,7 @@ public class MainActivity extends Activity
 	private Button btnOptions;
 	private Button btnCredits;
 	
-	private final Class<?>[] classes = {PlayActivity.class, 
+	private final Class<?>[] classes = {GameActivity.class, 
 										ShopActivity.class,
 										TutorialActivity.class,
 										OptionsActivity.class,
@@ -47,6 +48,7 @@ public class MainActivity extends Activity
 	{
 		initializeButtons();
 		loadEvents();
+		btnNew.setEnabled(false);
 	}
 	
 	private void initializeButtons()

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="ShopProduct">
+		<attr name="text" format="string" />
+		<attr name="cost" format="integer" />
+		<attr name="image" format="reference" />
+	</declare-styleable>
+</resources>
