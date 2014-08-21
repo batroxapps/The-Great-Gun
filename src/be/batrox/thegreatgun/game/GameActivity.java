@@ -5,7 +5,9 @@ import be.batrox.thegreatgun.R;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class GameActivity extends Activity
+import org.anddev.andengine.ui.activity.BaseGameActivity;
+
+public class GameActivity extends BaseGameActivity
 {
 	public void onCreate(Bundle savedInstanceState)
 	{
